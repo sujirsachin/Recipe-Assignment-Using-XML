@@ -1,0 +1,16 @@
+
+<!DOCTYPE recipe
+[
+<!ELEMENT Ingredients ( #PCDATA ) >
+
+<!ELEMENT Procedure ( #PCDATA ) >
+
+<!ELEMENT Recipe_Name ( #PCDATA ) >
+
+<!ELEMENT Recipes (Ingredients | Procedure | Recipe_Name | Serving_Size | Tip | pic1 | pic2 | pic3 )* >
+
+<!ELEMENT Serving_Size ( #PCDATA ) >
+
+<!ELEMENT Tip ( #PCDATA ) >
+
+]>
